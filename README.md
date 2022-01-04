@@ -2,6 +2,10 @@
 
 ## Learn Go (Golang)
 
+## Golang-tutorials
+
+All course files for the Net Ninja Go tutorial series.
+
 - Go (Golang) Tutorial #1 - Introduction & Setup
 - Go (Golang) Tutorial #2 - Your First Go File
 - Go (Golang) Tutorial #3 - Variables, Strings & Numbers
