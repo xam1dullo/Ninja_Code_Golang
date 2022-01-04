@@ -1,5 +1,5 @@
 # Ninja_Code_Golang
 
-## lesson# 02
+## lesson# 03
 
-- Go (Golang) Tutorial #2 - Your First Go File
+- Go (Golang) Tutorial #3 - Variables, Strings & Numbers
