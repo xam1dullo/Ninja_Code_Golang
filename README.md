@@ -1,5 +1,5 @@
 # Ninja_Code_Golang
 
-## lesson# 13
+## lesson# 14
 
-- Go (Golang) Tutorial #13 - Pass By Value
+- Go (Golang) Tutorial #14 - Pointers
