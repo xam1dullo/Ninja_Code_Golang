@@ -1,5 +1,5 @@
 # Ninja_Code_Golang
 
-## lesson# 05
+## lesson# 06
 
-- Go (Golang) Tutorial #5 - Arrays & Slices
+- Go (Golang) Tutorial #6 - The Standard Library

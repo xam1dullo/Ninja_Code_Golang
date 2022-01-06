@@ -2,32 +2,32 @@ package main
 
 import (
 	"fmt"
+	"sort"
 )
 
 func main() {
-	// var ages [3]int = [3]int{21, 13, 25}
-	var ages = [3]int{21, 13, 25}
-	names := [4]string{"xamidullo","azizbek","xumoyun","mr.xamidullo"}
-	names[0] = "xamidullox"
-	fmt.Println(ages, len(ages))
-	fmt.Println(names, len(names))
-
-	// slices (use arrays under the hood)
-	var scores = []int{100,12,25,64}
-	scores[3] =123
-	scores = append(scores, 125)
-	fmt.Println(scores,len(scores))
-
-
-	//slice ranges
-
-	rangeOne := names[1:4]
-	rangeTwo := names[:3]
-	rangeTree := names[3:]
-
-	fmt.Println(rangeOne ,len(rangeOne))
+	// greeting := "hello there friends!"
+	//string methods
+	// fmt.Println(strings.Contains(greeting,"hello "))
+	// fmt.Println(strings.ReplaceAll(greeting,"hello","hi"))
+	// fmt.Println((strings.ToUpper(greeting)))
+	// fmt.Println(strings.Index(greeting,"ll"))
+	// fmt.Println(strings.Index(greeting,`ll`))
+	// fmt.Println(strings.Split(greeting, " "))
 	
-	fmt.Println(rangeTwo, len(rangeTwo))
+	//sort methods
+	ages  := []int{23,12,42,553,64,757,8,68,6,4,2}
 	
-	fmt.Println(rangeTree, len(rangeTree))
-}
+	sort.Ints(ages)
+	fmt.Println(ages)
+	
+	index := sort.SearchInts(ages,30)
+	fmt.Println(index) 
+	
+	names := []string{"xamidullo","azizbek","humoyun","xamidullo","azizbek","humoyun"}
+	sort.Strings(names)
+	fmt.Println(names)
+	fmt.Println(sort.SearchStrings(names,"xamidullo"))
+} 
+	
+	
