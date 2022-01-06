@@ -6,27 +6,27 @@
 
 All course files for the Net Ninja Go tutorial series.
 
-- Go (Golang) Tutorial #1 - Introduction & Setup
-- Go (Golang) Tutorial #2 - Your First Go File
-- Go (Golang) Tutorial #3 - Variables, Strings & Numbers
-- Go (Golang) Tutorial #4 - Printing & Formatting Strings
-- Go (Golang) Tutorial #5 - Arrays & Slices
-- Go (Golang) Tutorial #6 - The Standard Library
-- Go (Golang) Tutorial #7 - Loops
-- Go (Golang) Tutorial #8 - Booleans & Conditionals
-- Go (Golang) Tutorial #9 - Using Functions
-- Go (Golang) Tutorial #10 - Multiple Return Values
-- Go (Golang) Tutorial #11 - Package Scope
-- Go (Golang) Tutorial #12 - Maps
-- Go (Golang) Tutorial #13 - Pass By Value
-- Go (Golang) Tutorial #14 - Pointers
-- Go (Golang) Tutorial #15 - Structs & Custom Types
-- Go (Golang) Tutorial #16 - Receiver Functions
-- Go (Golang) Tutorial #17 - Receiver Functions with Pointers
-- Go (Golang) Tutorial #18 - User Input
-- Go (Golang) Tutorial #19 - Switch Statements
-- Go (Golang) Tutorial #20 - Parsing Floats
-- Go (Golang) Tutorial #21 - Saving Files
-- Go (Golang) Tutorial #22 - Interfaces
+- lesson##1 - Go (Golang) Tutorial #1 - Introduction & Setup
+- lesson##2 - Go (Golang) Tutorial #2 - Your First Go File
+- lesson##3 - Go (Golang) Tutorial #3 - Variables, Strings & Numbers
+- lesson##4 - Go (Golang) Tutorial #4 - Printing & Formatting Strings
+- lesson##5 - Go (Golang) Tutorial #5 - Arrays & Slices
+- lesson##6 - Go (Golang) Tutorial #6 - The Standard Library
+- lesson##7 - Go (Golang) Tutorial #7 - Loops
+- lesson##8 - Go (Golang) Tutorial #8 - Booleans & Conditionals
+- lesson##9 - Go (Golang) Tutorial #9 - Using Functions
+- lesson##10 - Go (Golang) Tutorial #10 - Multiple Return Values
+- lesson##11 - Go (Golang) Tutorial #11 - Package Scope
+- lesson##12 - Go (Golang) Tutorial #12 - Maps
+- lesson##13 - Go (Golang) Tutorial #13 - Pass By Value
+- lesson##14 - Go (Golang) Tutorial #14 - Pointers
+- lesson##15 - Go (Golang) Tutorial #15 - Structs & Custom Types
+- lesson##16 - Go (Golang) Tutorial #16 - Receiver Functions
+- lesson##17 - Go (Golang) Tutorial #17 - Receiver Functions with Pointers
+- lesson##18 - Go (Golang) Tutorial #18 - User Input
+- lesson##19 - Go (Golang) Tutorial #19 - Switch Statements
+- lesson##20 - Go (Golang) Tutorial #20 - Parsing Floats
+- lesson##21 - Go (Golang) Tutorial #21 - Saving Files
+- lesson##22 - Go (Golang) Tutorial #22 - Interfaces
 
 # End :)
