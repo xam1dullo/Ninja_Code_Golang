@@ -1,5 +1,5 @@
 # Ninja_Code_Golang
 
-## lesson# 04
+## lesson# 05
 
-- Go (Golang) Tutorial #4 - Printing & Formatting Strings
+- Go (Golang) Tutorial #5 - Arrays & Slices

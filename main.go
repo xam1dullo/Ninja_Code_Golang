@@ -1,28 +1,33 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	age := 21
-	name := "Xamidullo"
+	// var ages [3]int = [3]int{21, 13, 25}
+	var ages = [3]int{21, 13, 25}
+	names := [4]string{"xamidullo","azizbek","xumoyun","mr.xamidullo"}
+	names[0] = "xamidullox"
+	fmt.Println(ages, len(ages))
+	fmt.Println(names, len(names))
+
+	// slices (use arrays under the hood)
+	var scores = []int{100,12,25,64}
+	scores[3] =123
+	scores = append(scores, 125)
+	fmt.Println(scores,len(scores))
+
+
+	//slice ranges
+
+	rangeOne := names[1:4]
+	rangeTwo := names[:3]
+	rangeTree := names[3:]
+
+	fmt.Println(rangeOne ,len(rangeOne))
 	
-	//Print
-	fmt.Print("Hello ")
-	fmt.Print("Golang! \n")
-	fmt.Print("new Line! \n")
-
-	fmt.Println("Hello ninjas!")
-	fmt.Println("Goodbye ninjas!")
-	fmt.Println("My age is ", age, "and My name is ",name)
-
-	//Print (formatted string) %_ = format specifer
-	fmt.Printf("my age is %v and my name is %v \n",age, name)
-	fmt.Printf("my age is %v and my name is %q \n",age, name)
-	fmt.Printf("age is of type %T \n",age)
-	fmt.Printf("you scored %f points! \n", 222.25)
-
-	// fmt.Sprint(save formatted string)
-	var str = fmt.Sprintf("my age is %v and my name is %v \n",age, name)
-
-	fmt.Println("the saved string is :",str)
+	fmt.Println(rangeTwo, len(rangeTwo))
+	
+	fmt.Println(rangeTree, len(rangeTree))
 }
