@@ -1,5 +1,5 @@
 # Ninja_Code_Golang
 
-## lesson# 11
+## lesson# 12
 
-- Go (Golang) Tutorial #11 - Package Scope
+- Go (Golang) Tutorial #12 - Maps
