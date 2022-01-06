@@ -3,34 +3,30 @@ package main
 import "fmt"
 
 func main() {
-	// while loop
-	x := 0
-	for x < 5 {
-		fmt.Println("value of x is ", x)
-		x++
-	}
+	age := 45
+	fmt.Println(age <= 50)
+	fmt.Println(age >= 50)
+	fmt.Println(age == 50)
+	fmt.Println(age != 50)
 	
-	//for loop
-	for i :=0; i < 5; i++{
-		fmt.Println("value of i is ", i)
-	}
-	
-	names := []string{"xamidullo","azizbek","humoyun","hojiakbar","begzodbek"}
-
-	for i :=0; i < len(names); i++{
-		fmt.Println("value of names[",i,"] is ", names[i])
-	}
-	
-	// for in loop
-	
-	for index, value := range names{
-		fmt.Printf("the position at index %v is %v \n",index,value)
-	}
-
-	for _, value := range names{
-		fmt.Printf("the value is %v \n",value)
-		value = "new String"
-		fmt.Println(names)
-	}
-	fmt.Println(names)
-}
+	if age < 30{
+		fmt.Println("age is less then 30")
+		}else if age < 40 {
+			fmt.Println("age is less then 40")
+			}else {
+				fmt.Println("age is less then 45")
+			}
+			
+			names := []string{"John", "Paul", "George", "Ringo"}
+			for index, value := range names {
+				if index == 1{
+					fmt.Println("continuning at pos", index)
+					continue
+				}
+				if index == 2{
+					fmt.Println("breaking at pos", index)
+					break
+				}
+				fmt.Println("the value at", index, "is", value)
+			}
+		}
