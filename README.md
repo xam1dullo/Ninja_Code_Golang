@@ -1,5 +1,5 @@
 # Ninja_Code_Golang
 
-## lesson# 08
+## lesson# 09
 
-- Go (Golang) Tutorial #8 - Booleans & Conditionals
+- Go (Golang) Tutorial #9 - Using Functions
