@@ -1,5 +1,5 @@
 # Ninja_Code_Golang
 
-## lesson# 10
+## lesson# 11
 
-- Go (Golang) Tutorial #10 - Multiple Return Values
+- Go (Golang) Tutorial #11 - Package Scope
