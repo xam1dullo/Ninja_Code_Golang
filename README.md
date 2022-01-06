@@ -1,5 +1,5 @@
 # Ninja_Code_Golang
 
-## lesson# 09
+## lesson# 10
 
-- Go (Golang) Tutorial #9 - Using Functions
+- Go (Golang) Tutorial #10 - Multiple Return Values
