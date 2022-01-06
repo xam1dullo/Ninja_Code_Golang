@@ -1,5 +1,5 @@
 # Ninja_Code_Golang
 
-## lesson# 06
+## lesson# 07
 
-- Go (Golang) Tutorial #6 - The Standard Library
+- Go (Golang) Tutorial #7 - Loops
