@@ -7,10 +7,12 @@
 * go run main.go bill.go
 
 Bill breakdown: 
-coffe:                    ...$2.77 
-toffee:                   ...$4.95 
-onion soup:               ...$4.53 
-pie:                      ...$5.88 
-cake:                     ...$1.88
-tip:                      ...$10
-totoal:                   ...$30.01
+  ```
+  coffe: ...$2.77
+  toffee: ...$4.95
+  onion soup: ...$4.53
+  pie: ...$5.88
+  cake: ...$1.88
+  tip: ...$10
+  totoal: ...$30.01
+  ```
