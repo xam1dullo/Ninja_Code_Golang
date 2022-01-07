@@ -1,6 +1,3 @@
 Bill breakdown: 
-olma:                     ...$1.21 
-behi:                     ...$2.33 
-uzum:                     ...$3.28 
 tip:                      ...$0
-totoal:                   ...$6.82
+totoal:                   ...$0.00
