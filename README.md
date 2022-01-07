@@ -1,8 +1,8 @@
 # Ninja_Code_Golang
 
-## lesson# 18
+## lesson# 19
 
-- Go (Golang) Tutorial #18 - User Input
+-Go (Golang) Tutorial #19 - Switch Statements
 
 * go run main.go bill.go
 
