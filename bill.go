@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"io/ioutil"
+	"log"
+)
 
 type bill struct {
 	name  string
@@ -43,4 +47,14 @@ func (b *bill) format() string {
 	//add an item to the bill
 	func (b *bill )addItem(name string, price float64){
 		b.items[name] = price
+	}
+	//save the bill
+	func (b *bill) save(){
+		data := []byte(b.format())
+		fmt.Println(string(data),b.name)
+		err := ioutil.WriteFile("bills.txt", data, 0644)
+		if err != nil {
+                log.Fatal(err)
+            }
+		fmt.Println("bill was saved to file")  
 	}
