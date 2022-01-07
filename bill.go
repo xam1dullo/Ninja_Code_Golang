@@ -23,7 +23,7 @@ func (b *bill) format() string {
 	fs := "Bill breakdown: \n"
 	var total float64 = 0;
 	//list all items
-	for k, v := range b.items {
+	for k, v := range b.items { 
 		fs += fmt.Sprintf("%-25v ...$%v \n", k+":", v)
 		total += v
 	}
@@ -41,6 +41,6 @@ func (b *bill) format() string {
 		b.tip = tip
 	}
 	//add an item to the bill
-	func (b bill )addItem(name string, price float64){
+	func (b *bill )addItem(name string, price float64){
 		b.items[name] = price
 	}
