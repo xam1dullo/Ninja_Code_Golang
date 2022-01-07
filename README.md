@@ -1,7 +1,7 @@
 # Ninja_Code_Golang
 
-## lesson# 16
+## lesson# 15
 
-- Go (Golang) Tutorial #16 - Receiver Functions
+- Go (Golang) Tutorial #15 - Structs & Custom Types
 
 * go run main.go bill.go
